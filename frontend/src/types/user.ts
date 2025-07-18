@@ -1,0 +1,1 @@
+export interface User {n  id: stringn  username: stringn  email: stringn  avatar: stringn  createdAt: stringn  posts: string[]n  favorites: string[]n}nnexport interface UserPreferences {n  theme: 'light' | 'dark' | 'auto'n  notifications: booleann  language: stringn}

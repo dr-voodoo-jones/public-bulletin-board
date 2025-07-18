@@ -1,0 +1,1 @@
+export interface ApiResponse<T> {n  success: booleann  data: Tn  message?: stringn  error?: stringn}nnexport interface PaginatedResponse<T> {n  data: T[]n  total: numbern  page: numbern  limit: numbern  hasMore: booleann}nnexport interface ApiError {n  message: stringn  status: numbern  code?: stringn}
