@@ -1,0 +1,98 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+# Local Development Rules
+
+## Primary Development Approach
+
+### Local-First Development
+- **Always develop locally first** - Create and modify files in the local workspace
+- **Use local file operations** - Create, edit, and manage files directly in the workspace
+- **Test locally** - Run applications and tests in the local environment
+- **Iterate quickly** - Make changes and see results immediately without git overhead
+
+### File Management
+- Use `edit_file` for creating and modifying files
+- Use `read_file` to examine existing code
+- Use `list_dir` to explore project structure
+- Use `search_replace` for targeted text changes
+- Use `delete_file` when files need to be removed
+
+## Git Tool Restrictions
+
+### When NOT to Use Git Tools
+- **Do NOT use GitHub MCP tools by default**
+- **Do NOT push files to repositories automatically**
+- **Do NOT create commits unless specifically requested**
+- **Do NOT manage branches unless explicitly asked**
+- **Do NOT create pull requests without user direction**
+
+### When Git Tools ARE Allowed
+- **Only when user specifically requests git operations**
+- **Only when user asks to push to a repository**
+- **Only when user wants to create commits or PRs**
+- **Only when user explicitly mentions GitHub operations**
+
+## Development Workflow
+
+### Standard Process
+1. **Create files locally** using `edit_file`
+2. **Modify existing files** using `edit_file` or `search_replace`
+3. **Test changes** by running local commands
+4. **Iterate and improve** based on results
+5. **Wait for user direction** before any git operations
+
+### Local Testing
+- Run `npm install` and `npm run dev` for frontend projects
+- Run `npm start` or equivalent for backend projects
+- Use `run_terminal_cmd` to execute local commands
+- Test functionality in the browser or terminal
+
+## Communication Guidelines
+
+### When Suggesting Changes
+- Say "I'll create this file locally" or "I'll modify this file"
+- Don't mention git operations unless the user brings them up
+- Focus on local development and immediate results
+- Emphasize quick iteration and testing
+
+### When User Asks About Git
+- Only then discuss git operations
+- Ask for clarification on what git actions they want
+- Explain what git tools are available
+- Wait for explicit permission before using git tools
+
+## Project Setup
+
+### Local Environment
+- Set up project structure in local workspace
+- Install dependencies locally
+- Configure development environment
+- Create necessary configuration files
+- Test everything works locally first
+
+### Documentation
+- Create README files locally
+- Document setup instructions for local development
+- Include local testing procedures
+- Explain how to run the project locally
+
+## Best Practices
+
+### Code Quality
+- Write clean, well-documented code
+- Follow project conventions
+- Include proper error handling
+- Add comments and documentation
+- Test functionality thoroughly
+
+### User Experience
+- Focus on creating working, functional applications
+- Prioritize user-requested features
+- Ensure smooth local development experience
+- Provide clear instructions for running locally
+
+Remember: The goal is to create working, functional code locally first. Git operations are secondary and should only happen when explicitly requested by the user.

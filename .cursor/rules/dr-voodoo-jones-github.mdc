@@ -1,0 +1,205 @@
+---
+description: Provides detailed operational rules, best practices, and workflow guidelines for managing GitHub repositories and activities as the user dr-voodoo-jones through the GitHub MCP server. This file ensures consistent, secure, and efficient project management for all GitHub operations performed by this account.
+alwaysApply: false
+---
+
+# GitHub Management Rules for dr-voodoo-jones
+
+## Authentication & Access
+- Always use the GitHub MCP server for all GitHub operations
+- The authenticated user is `dr-voodoo-jones`
+- Ensure proper authentication before performing any GitHub operations
+- Use appropriate scopes and permissions for each operation
+
+## Repository Management
+
+### Creating Repositories
+- When creating new repositories, consider the following:
+  - Use descriptive, kebab-case names (e.g., `my-awesome-project`)
+  - Add a clear description explaining the project's purpose
+  - Set appropriate visibility (public/private) based on project requirements
+  - Initialize with README when appropriate
+  - Add relevant topics/tags for discoverability
+
+### Repository Organization
+- Maintain consistent naming conventions across repositories
+- Use meaningful branch names (e.g., `feature/user-authentication`, `bugfix/login-error`)
+- Keep repositories focused on single responsibilities
+- Archive inactive repositories rather than deleting them
+
+## Issue & Pull Request Management
+
+### Issue Guidelines
+- Use clear, descriptive issue titles
+- Provide detailed descriptions with:
+  - Problem statement
+  - Expected behavior
+  - Actual behavior
+  - Steps to reproduce
+  - Environment details
+- Use appropriate labels for categorization
+- Assign issues to relevant team members
+- Set realistic milestones and due dates
+
+### Pull Request Best Practices
+- Create descriptive PR titles and descriptions
+- Reference related issues using keywords (e.g., "Fixes #123", "Closes #456")
+- Include screenshots or demos for UI changes
+- Request reviews from appropriate team members
+- Keep PRs focused and reasonably sized
+- Use draft PRs for work-in-progress
+
+### Code Review Standards
+- Review code thoroughly before approval
+- Provide constructive feedback
+- Check for:
+  - Code quality and readability
+  - Security considerations
+  - Performance implications
+  - Test coverage
+  - Documentation updates
+
+## Workflow Management
+
+### Branch Strategy
+- Use `main` or `master` as the primary branch
+- Create feature branches for new development
+- Use `develop` branch for integration (if applicable)
+- Delete merged branches to keep repository clean
+
+### Commit Standards
+- Write clear, descriptive commit messages
+- Use conventional commit format when possible:
+  - `feat:` for new features
+  - `fix:` for bug fixes
+  - `docs:` for documentation changes
+  - `style:` for formatting changes
+  - `refactor:` for code refactoring
+  - `test:` for adding tests
+  - `chore:` for maintenance tasks
+
+### Release Management
+- Use semantic versioning for releases
+- Create release notes summarizing changes
+- Tag releases appropriately
+- Consider using GitHub releases for distribution
+
+## Security & Best Practices
+
+### Security Guidelines
+- Never commit sensitive information (API keys, passwords, etc.)
+- Use environment variables for configuration
+- Enable security features like:
+  - Dependabot alerts
+  - Code scanning
+  - Secret scanning
+  - Branch protection rules
+- Regularly update dependencies
+
+### Code Quality
+- Maintain consistent coding standards
+- Use linters and formatters
+- Write comprehensive tests
+- Document code and APIs
+- Follow the project's style guide
+
+## Communication & Collaboration
+
+### Team Collaboration
+- Be respectful and constructive in comments
+- Use mentions (@username) to notify team members
+- Respond promptly to reviews and comments
+- Use GitHub discussions for broader conversations
+- Keep the team informed of major changes
+
+### Documentation
+- Maintain up-to-date README files
+- Document setup and installation procedures
+- Include contribution guidelines
+- Keep documentation close to code
+- Use GitHub Wiki for extensive documentation
+
+## Automation & CI/CD
+
+### GitHub Actions
+- Set up automated testing and deployment
+- Use appropriate triggers (push, pull_request, etc.)
+- Cache dependencies to speed up builds
+- Use matrix builds for multiple environments
+- Implement proper error handling and notifications
+
+### Dependabot
+- Enable automated dependency updates
+- Review and merge security updates promptly
+- Configure appropriate update schedules
+- Use grouping for related dependencies
+
+## Monitoring & Maintenance
+
+### Repository Health
+- Regularly review and update dependencies
+- Monitor for security vulnerabilities
+- Keep documentation current
+- Archive or delete unused repositories
+- Maintain consistent project structure
+
+### Performance
+- Optimize build times and workflows
+- Use appropriate caching strategies
+- Monitor repository size and performance
+- Implement proper error handling
+
+## Emergency Procedures
+
+### Incident Response
+- Know how to quickly revert problematic changes
+- Have backup and recovery procedures
+- Maintain contact information for key team members
+- Document incident response procedures
+
+### Access Management
+- Regularly review repository access
+- Remove access for inactive team members
+- Use appropriate permission levels
+- Maintain audit logs of access changes
+
+## Specific Commands & Tools
+
+### Useful GitHub MCP Operations
+- Use `list_notifications` to check pending items
+- Use `list_issues` to review open issues
+- Use `list_pull_requests` to check PR status
+- Use `get_workflow_runs` to monitor CI/CD
+- Use `list_dependabot_alerts` for security monitoring
+
+### Automation Opportunities
+- Set up automated issue labeling
+- Configure branch protection rules
+- Implement automated testing
+- Use GitHub Apps for enhanced functionality
+
+## Personal Workflow Tips
+
+### Daily Routine
+- Check notifications first thing
+- Review and respond to pending reviews
+- Update dependencies as needed
+- Monitor security alerts
+- Plan and prioritize work
+
+### Weekly Tasks
+- Review repository analytics
+- Update documentation
+- Clean up old branches
+- Review and archive completed issues
+- Plan upcoming releases
+
+Remember: Always prioritize security, maintain good communication, and follow established best practices when working with GitHub repositories under the dr-voodoo-jones account.
+
+- Plan upcoming releases
+
+Remember: Always prioritize security, maintain good communication, and follow established best practices when working with GitHub repositories under the dr-voodoo-jones account.
+
+- Plan upcoming releases
+
+Remember: Always prioritize security, maintain good communication, and follow established best practices when working with GitHub repositories under the dr-voodoo-jones account.
